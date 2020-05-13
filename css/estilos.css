@@ -1,0 +1,40 @@
+body{
+    background: LIGHTPINK;
+    background-image: url('https://images.unsplash.com/photo-1465263284753-a3028ea154e0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1052&q=80'); 
+    background-size: auto 100vh;
+    font-family: Baskerville;
+    height: 100vh;
+  }
+  
+  .menu{
+    background: PAPAYAWHIP;
+  }
+  
+  .menu ul{
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .menu li{
+    list-style: none;
+  }
+  
+  a{
+    color: black;
+    text-decoration: none;
+  }
+  
+  a:hover{
+    text-decoration: underline;
+  }
+  
+  .site-subtitle,
+  .site-title{
+    color: PAPAYAWHIP;
+    text-align: justify;
+  }
+  
+  .site-subtitle{
+    font-style: italic;
+  }
+  
